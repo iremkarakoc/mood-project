@@ -1,0 +1,11 @@
+<div class="mood-container">
+  <div class="picture" [ngSwitch]="getMood()">
+    <img *ngSwitchCase="'Angry'" alt="Angry a cat" src="./assets/angryCat.png"  height="100px" width="100px" />
+    <img *ngSwitchCase="'Bored'" alt="Bored a cat" src="./assets/boringCat.png" />
+    <img *ngSwitchCase="'Cheerful'" alt="Cheerful a cat" src="./assets/cheerfulCat.png" />
+    <img *ngSwitchCase="'Depressed'" alt="Depressed a cat" src="./assets/depressedCat.png" />
+    <img *ngSwitchCase="'Low'" alt="Low a cat" src="./assets/lowCat.png"  />
+    <img *ngSwitchCase="'Sick'" alt="Sick a cat" src="./assets/sickCat.png" />
+  </div>
+  <p class="mood-state">{{getMood()}}</p>
+</div>

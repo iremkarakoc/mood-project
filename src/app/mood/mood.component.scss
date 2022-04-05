@@ -1,0 +1,28 @@
+.mood{
+  &-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+  }
+
+  &-picture{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+  }
+
+  &-state {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 100px;
+  }
+
+
+}

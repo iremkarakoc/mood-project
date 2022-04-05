@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TemperatureService } from './service/temperature.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mood-proje';
+  title = 'temperature-mood';
 }
